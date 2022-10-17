@@ -1,0 +1,25 @@
+{
+  "name": "rollup-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "rollup -w -c rollup.config.js",
+    "build": "rimraf ./dist/**/* && rollup -c rollup.config.js"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "type": "module",
+  "dependencies": {
+    "rollup": "^3.2.2",
+    "shared": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "eslint": "^8.11.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "private": true
+}

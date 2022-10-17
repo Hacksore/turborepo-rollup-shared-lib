@@ -1,0 +1,1 @@
+export const bark = () => console.log("woof");
