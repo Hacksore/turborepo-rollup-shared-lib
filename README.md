@@ -2,8 +2,6 @@
 
 The goals is to have nice imports from shared and be able to bundle them into the `apps/rollup-demo` app.
 
-Like 
-
 ```ts
 // all things from the animals entrypoint
 import { bark, meow } from "shared/animals";
