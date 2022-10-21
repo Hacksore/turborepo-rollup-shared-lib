@@ -1,2 +1,2 @@
-// This is not a scalable solution 🤔
+// HACK: This is not a scalable solution 🤔
 export * from "./src/animals";
