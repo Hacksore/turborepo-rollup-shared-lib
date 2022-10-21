@@ -1,6 +1,11 @@
 {
   "name": "shared",
   "version": "0.0.0",
-  "main": "./index.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "devDependencies": {
+    "tsconfig": "*"
+  }
 }

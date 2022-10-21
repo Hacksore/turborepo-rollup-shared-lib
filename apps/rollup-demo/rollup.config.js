@@ -5,7 +5,9 @@ import pkg from "./package.json" assert { type: "json" };
 const config = {
   input: "src/index.ts",
   external: [...Object.keys(pkg.dependencies)],
-  plugins: [typescript(), nodeResolve()],
+  plugins: [typescript({
+    outputToFilesystem: true,
+  }), nodeResolve()],
   output: {
     file: "dist/index.js",
     format: "es",
