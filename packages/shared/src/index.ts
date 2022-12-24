@@ -1,5 +1,15 @@
 export * from "./animals";
 export * from "./module";
 
-// testing from the root
-export const TEST_FROM_ROOT = 1;
+/**
+ * A constant in the shared index file
+ */
+const TEST_FROM_ROOT = 1;
+
+// test fn
+const lmao = () => "lmao";
+
+export {
+  TEST_FROM_ROOT,
+  lmao
+}

@@ -3,6 +3,9 @@
   "include": ["**/*.ts"],
   "exclude": ["node_modules"],
   "compilerOptions": {
-    "declarationDir": "dist/"
+    "declarationDir": "dist/",
+     "paths": {
+      "shared/*": ["../../packages/shared/src/*"],
+    }
   }
 }
