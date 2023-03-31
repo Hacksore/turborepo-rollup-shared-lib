@@ -1,6 +1,3 @@
-export * from "./animals";
-export * from "./module";
-
 /**
  * A constant in the shared index file
  */

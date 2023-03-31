@@ -1,10 +1,28 @@
 {
-  "name": "shared",
+  "name": "@acme/shared",
   "version": "0.0.0",
   "license": "MIT",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
+  "exports": {
+    "./animals": {
+      "import": "./src/animals/index.ts"
+    },
+    "./module": {
+      "import": "./src/module/index.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "animals": [
+        "./src/animals/index.ts"
+      ],
+      "module": [
+        "./src/module/index.ts"
+      ]
+    }
+  },
   "devDependencies": {
     "tsconfig": "*"
   }

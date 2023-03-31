@@ -1,1 +1,1 @@
-export * from "./classic"
+export const CLASSIC_EXPORT = 1;
